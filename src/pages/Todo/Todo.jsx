@@ -31,7 +31,7 @@ const Todo = () => {
                     type="text"
                     value={task}
                     onChange={(e) => setTask(e.target.value)}
-                    placeholder="Add a new task..."
+                    placeholder="Agregar tarea..."
                 />
                 <button onClick={addTodo}>Add</button>
             </div>
